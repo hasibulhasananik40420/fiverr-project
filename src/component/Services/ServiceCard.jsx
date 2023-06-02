@@ -27,13 +27,13 @@ const ServiceCard = () => {
                 <Divider />
                 <CardFooter>
                     <ButtonGroup spacing='2'>
-                       <Link to='/checkout'>
-                       <Link to='/checkout'>
-                       <Button variant='solid' colorScheme='blue'>
-                            Buy now
-                        </Button>
-                       </Link>
-                       </Link>
+                        <Link to='/checkout'>
+                            <Link to='/checkout'>
+                                <Button variant='solid' colorScheme='blue'>
+                                    Buy now
+                                </Button>
+                            </Link>
+                        </Link>
                         <Button variant='ghost' colorScheme='blue'>
                             Add to cart
                         </Button>
@@ -62,10 +62,10 @@ const ServiceCard = () => {
                 <CardFooter>
                     <ButtonGroup spacing='2'>
                         <Link to='/checkout'>
-                       <Button variant='solid' colorScheme='blue'>
-                            Buy now
-                        </Button>
-                       </Link>
+                            <Button variant='solid' colorScheme='blue'>
+                                Buy now
+                            </Button>
+                        </Link>
                         <Button variant='ghost' colorScheme='blue'>
                             Add to cart
                         </Button>
@@ -94,10 +94,10 @@ const ServiceCard = () => {
                 <CardFooter>
                     <ButtonGroup spacing='2'>
                         <Link to='/checkout'>
-                       <Button variant='solid' colorScheme='blue'>
-                            Buy now
-                        </Button>
-                       </Link>
+                            <Button variant='solid' colorScheme='blue'>
+                                Buy now
+                            </Button>
+                        </Link>
                         <Button variant='ghost' colorScheme='blue'>
                             Add to cart
                         </Button>
@@ -126,10 +126,10 @@ const ServiceCard = () => {
                 <CardFooter>
                     <ButtonGroup spacing='2'>
                         <Link to='/checkout'>
-                       <Button variant='solid' colorScheme='blue'>
-                            Buy now
-                        </Button>
-                       </Link>
+                            <Button variant='solid' colorScheme='blue'>
+                                Buy now
+                            </Button>
+                        </Link>
                         <Button variant='ghost' colorScheme='blue'>
                             Add to cart
                         </Button>
