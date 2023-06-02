@@ -4,9 +4,9 @@
     background-repeat: no-repeat;
     background-position: right;
     height: 100%;
-    background-size: contain;
+    /* background-size: contain; */
     /* background-size: auto; */
-    /* background-size: covers; */
+    background-size: covers;
 }
 
 .secondSlider {
@@ -15,7 +15,7 @@
     background-repeat: no-repeat;
     background-position: left;
     height: 100%;
-    background-size: contain;
+    /* background-size: contain; */
     /* background-size: auto; */
-    /* background-size: covers; */
+    background-size: covers;
 }

@@ -1,5 +1,6 @@
 import { Button, ButtonGroup, Card, CardBody, CardFooter, Divider, Heading, Image, Stack, Text } from '@chakra-ui/react';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ServiceCard = () => {
     return (
@@ -26,9 +27,13 @@ const ServiceCard = () => {
                 <Divider />
                 <CardFooter>
                     <ButtonGroup spacing='2'>
-                        <Button variant='solid' colorScheme='blue'>
+                       <Link to='/checkout'>
+                       <Link to='/checkout'>
+                       <Button variant='solid' colorScheme='blue'>
                             Buy now
                         </Button>
+                       </Link>
+                       </Link>
                         <Button variant='ghost' colorScheme='blue'>
                             Add to cart
                         </Button>
@@ -56,9 +61,11 @@ const ServiceCard = () => {
                 <Divider />
                 <CardFooter>
                     <ButtonGroup spacing='2'>
-                        <Button variant='solid' colorScheme='blue'>
+                        <Link to='/checkout'>
+                       <Button variant='solid' colorScheme='blue'>
                             Buy now
                         </Button>
+                       </Link>
                         <Button variant='ghost' colorScheme='blue'>
                             Add to cart
                         </Button>
@@ -86,9 +93,11 @@ const ServiceCard = () => {
                 <Divider />
                 <CardFooter>
                     <ButtonGroup spacing='2'>
-                        <Button variant='solid' colorScheme='blue'>
+                        <Link to='/checkout'>
+                       <Button variant='solid' colorScheme='blue'>
                             Buy now
                         </Button>
+                       </Link>
                         <Button variant='ghost' colorScheme='blue'>
                             Add to cart
                         </Button>
@@ -116,9 +125,11 @@ const ServiceCard = () => {
                 <Divider />
                 <CardFooter>
                     <ButtonGroup spacing='2'>
-                        <Button variant='solid' colorScheme='blue'>
+                        <Link to='/checkout'>
+                       <Button variant='solid' colorScheme='blue'>
                             Buy now
                         </Button>
+                       </Link>
                         <Button variant='ghost' colorScheme='blue'>
                             Add to cart
                         </Button>
