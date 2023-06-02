@@ -3,6 +3,7 @@ import Main from "../main/Main";
 import Home from "../pages/Home/Home";
 import Login from "../pages/Login/Login";
 import Singup from "../pages/Singup/Singup";
+import Checkout from "../pages/Checkout/Checkout";
 
 const routes = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const routes = createBrowserRouter([
             }, {
                 path: "/sing-up",
                 element: <Singup />
+            },
+            {
+                path: "/checkout",
+                element: <Checkout />
             },
             
 

@@ -33,7 +33,7 @@ const HeroSection = () => {
               <span className='text-[#1854b4] font-bold'>Welcome TO Home Rental Service</span>
               <h1 className='text-2xl md:text-3xl lg:text-5xl font-bold text-slate-800 py-3'>Find Your Amazing Real House Buy</h1>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem vitae quibusdam placeat dolores tempore optio error facere harum, corporis, voluptatibus dolor commodi sed non deleniti iusto voluptatum temporibus, vel totam!</p>
-              <button className="px-6 py-2 text-center font-bold  hover:text-white hover:bg-[#3657CD] mt-2 mr-2  duration-300 bg-textYellow text-black">About Us</button>
+              <button className="px-6 py-2 text-center font-bold  hover:text-white hover:bg-[#3657CD] mt-2 mr-2  duration-300 bg-textYellow text-black ">About Us</button>
               <button className="px-6 py-2 text-center font-bold  text-white bg-[#3657CD] mt-2 duration-300 hover:bg-textYellow hover:text-black">Services</button>
             </div>
           </div>

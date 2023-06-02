@@ -1,14 +1,18 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { IoMdClose } from 'react-icons/io'
+import { BsFillCartCheckFill } from 'react-icons/bs'
 import { motion } from "framer-motion"
+import { useDisclosure } from '@chakra-ui/react'
+import Cart from '../component/Services/Cart/Cart'
 const Navbar = () => {
   const [show, setShow] = useState(false)
+  const { isOpen, onOpen, onClose } = useDisclosure()
   return (
-    <div className='bg-white h-[10vh]  w-full'>
-      <div className='h-[10vh] flex justify-between items-center px-6 fixed top-0 left-0 right-0 z-30 bg-white shadow-md '>
+    <div className=' h-[10vh]  w-full fixed top-0 left-0 right-0 z-30 bg-white shadow-md'>
+      <div className='h-[10vh] flex justify-between items-center px-6 max-w-[1640px] mx-auto'>
         <div>
-          <h1>logo</h1>
+         <img src="https://sandbox.elemisthemes.com/assets/img/logo.png" alt="" />
         </div>
 
         <div className=' '>
@@ -43,8 +47,17 @@ const Navbar = () => {
           <Link to='/sing-up' className='singup-btn px-6 py-[6px] rounded shadow-sm cursor-pointer'>
             <p  className='text-base text-white'>Singup</p>
           </Link>
+
+           <span className='relative'>
+            <BsFillCartCheckFill onClick={()=>onOpen()} className='text-[#0B2B3C] text-2xl cursor-pointer'/>
+            <div className='w-4 h-4 rounded-full bg-blue-600 flex justify-center items-center absolute -top-[5px] left-3 '>
+              <p className='text-white text-[10px]'>2</p>
+            </div>
+           </span>
+
+          
          </div>
-       
+         <Cart action={{isOpen, onOpen, onClose}}/>
        
         {/* smail icon */}
             <div onClick={() => setShow(true)} className='w-6 h-5 flex flex-col justify-between items-center lg:hidden text-4xl text-black cursor-pointer overflow-hidden group'>
@@ -97,6 +110,10 @@ const Navbar = () => {
            <Link onClick={() => setShow(false)} to='/sing-up' className='singup-btn px-6 py-[6px] rounded shadow-sm cursor-pointer'>
             <p  className='text-base text-white'>Singup</p>
           </Link>
+
+          <span>
+            <BsFillCartCheckFill  onClick={()=>{onOpen(),setShow(false)}} className='text-blue-500 text-2xl cursor-pointer'/>
+           </span>
          </div>
 
                   </div>
