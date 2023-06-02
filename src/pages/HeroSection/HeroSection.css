@@ -1,0 +1,21 @@
+.firstSlider {
+    background-color: #edf5f8;
+    background-image: url('../../assets/images/hero.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+    background-size: contain;
+    /* background-size: auto; */
+    /* background-size: covers; */
+}
+
+.secondSlider {
+    background-color: #edf5f8;
+    background-image: url('../../assets/images/hero.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100%;
+    background-size: contain;
+    /* background-size: auto; */
+    /* background-size: covers; */
+}
