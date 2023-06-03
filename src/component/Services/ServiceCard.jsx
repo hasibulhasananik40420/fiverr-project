@@ -1,5 +1,10 @@
 import { Button, ButtonGroup, Card, CardBody, CardFooter, Divider, Heading, Image, Stack, Text } from '@chakra-ui/react';
 import React from 'react';
+import carpenter from '../../assets/images/brush-wood-4536227_1280.jpg';
+import electrician from '../../assets/images/electrician-3087536_1280.jpg';
+import Painting from '../../assets/images/paintbrush-4577578_1280.jpg';
+import plumber from '../../assets/images/plumbing-840835_1280.jpg';
+
 import { Link } from 'react-router-dom';
 
 const ServiceCard = () => {
@@ -8,12 +13,12 @@ const ServiceCard = () => {
             <Card maxW='sm'>
                 <CardBody>
                     <Image
-                        src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+                        src={carpenter}
                         alt='Green double couch with wooden legs'
                         borderRadius='lg'
                     />
                     <Stack mt='6' spacing='3'>
-                        <Heading size='md'>Living room Sofa</Heading>
+                        <Heading size='md'>Carpenter</Heading>
                         <Text>
                             This sofa is perfect for modern tropical spaces, baroque inspired
                             spaces, earthy toned spaces and for people who love a chic design with a
@@ -39,15 +44,16 @@ const ServiceCard = () => {
                         </Button>
                     </ButtonGroup>
                 </CardFooter>
-            </Card> <Card maxW='sm'>
+            </Card>
+            <Card maxW='sm'>
                 <CardBody>
                     <Image
-                        src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+                        src={electrician}
                         alt='Green double couch with wooden legs'
                         borderRadius='lg'
                     />
                     <Stack mt='6' spacing='3'>
-                        <Heading size='md'>Living room Sofa</Heading>
+                        <Heading size='md'>Electrician</Heading>
                         <Text>
                             This sofa is perfect for modern tropical spaces, baroque inspired
                             spaces, earthy toned spaces and for people who love a chic design with a
@@ -71,15 +77,15 @@ const ServiceCard = () => {
                         </Button>
                     </ButtonGroup>
                 </CardFooter>
-            </Card> <Card maxW='sm'>
+            </Card>
+            <Card maxW='sm'>
                 <CardBody>
                     <Image
-                        src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
-                        alt='Green double couch with wooden legs'
+                        src={plumber}
                         borderRadius='lg'
                     />
                     <Stack mt='6' spacing='3'>
-                        <Heading size='md'>Living room Sofa</Heading>
+                        <Heading size='md'>Plumber</Heading>
                         <Text>
                             This sofa is perfect for modern tropical spaces, baroque inspired
                             spaces, earthy toned spaces and for people who love a chic design with a
@@ -103,15 +109,15 @@ const ServiceCard = () => {
                         </Button>
                     </ButtonGroup>
                 </CardFooter>
-            </Card> <Card maxW='sm'>
+            </Card>
+            <Card maxW='sm'>
                 <CardBody>
                     <Image
-                        src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
-                        alt='Green double couch with wooden legs'
+                        src={Painting}
                         borderRadius='lg'
                     />
                     <Stack mt='6' spacing='3'>
-                        <Heading size='md'>Living room Sofa</Heading>
+                        <Heading size='md'>Painting</Heading>
                         <Text>
                             This sofa is perfect for modern tropical spaces, baroque inspired
                             spaces, earthy toned spaces and for people who love a chic design with a
