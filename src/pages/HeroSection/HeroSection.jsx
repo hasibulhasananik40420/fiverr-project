@@ -25,14 +25,14 @@ const HeroSection = () => {
         onBeforeInit={(swiper) => {
           swiperRef.current = swiper;
         }}
-        className="mySwiper h-[400px] md:h-[450px] lg:h-[600px] xl:h-[100vh] w-full overflow-hidden relative">
+        className="mySwiper h-[450px] md:h-[450px] lg:h-[600px] xl:h-[100vh] w-full overflow-hidden relative">
 
         <SwiperSlide>
           <div className="firstSlider p-[30px] md:p-[100px] lg:p-[150px] w-full">
             <div className="w-full md:w[80%] lg:w-[50%] mt-[30px] md:mt-0 lg:mt-0">
               <span className='text-[#1854b4] font-bold'>Welcome TO Home Rental Service</span>
               <h1 className='text-2xl md:text-3xl lg:text-5xl font-bold text-slate-800 py-3'>Find Your Amazing Real House Buy</h1>
-              <p className='text-sm lg:text-base font-bold'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem vitae quibusdam placeat dolores tempore optio error facere harum, corporis, voluptatibus dolor commodi sed non deleniti iusto voluptatum temporibus!</p>
+              <p className='text-sm lg:text-base  text-[#343F52] font-medium'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem vitae quibusdam placeat dolores tempore optio error facere harum, corporis, voluptatibus dolor commodi sed non deleniti iusto voluptatum temporibus!</p>
               <div className="mt-5">
                 <button className="px-6 py-2 text-center font-bold  hover:text-white hover:bg-[#3657CD] mt-2 mr-4  duration-300 bg-textYellow text-black ">About Us</button>
                 <button className="px-6 py-2 text-center font-bold  text-white bg-[#3657CD] mt-2 duration-300 hover:bg-textYellow hover:text-black">Services</button>
@@ -46,7 +46,7 @@ const HeroSection = () => {
             <div className="w-full md:w[80%] lg:w-[50%] mt-[30px] md:mt-0 lg:mt-0 lg:ml-auto text-right">
               <span className='text-[#1854b4] font-bold'>Welcome TO Home Rental Service</span>
               <h1 className='text-2xl md:text-3xl lg:text-5xl font-bold text-slate-800 py-3'>Find Your Amazing Real House Buy</h1>
-              <p className='text-sm lg:text-base font-bold'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem vitae quibusdam placeat dolores tempore optio error facere harum, corporis, voluptatibus dolor commodi sed non deleniti iusto voluptatum temporibus!</p>
+              <p className='text-sm lg:text-base  text-[#343F52] font-medium'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem vitae quibusdam placeat dolores tempore optio error facere harum, corporis, voluptatibus dolor commodi sed non deleniti iusto voluptatum temporibus!</p>
               <div className="mt-5">
                 <button className="px-6 py-2 text-center font-bold  hover:text-white hover:bg-[#3657CD] mt-2 mr-4  duration-300 bg-textYellow text-black">About Us</button>
                 <button className="px-6 py-2 text-center font-bold  text-white bg-[#3657CD] mt-2 duration-300 hover:bg-textYellow hover:text-black">Services</button>
