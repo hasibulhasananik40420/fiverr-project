@@ -55,10 +55,8 @@ const Navbar = () => {
             </motion.span>
 
 
-
-
             <Link to='/sing-up' className='singup-btn px-6 py-[6px] rounded shadow-sm cursor-pointer'>
-              <p className='text-base text-white'>Singup</p>
+              <p className='text-base text-white'>Singnup</p>
             </Link>
 
             <span className='relative'>
