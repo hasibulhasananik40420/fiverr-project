@@ -6,7 +6,7 @@ const ReferEarn = () => {
             <div className='lg:px-20 md:px-30 px-0 flex flex-col lg:gap-6 md:gap-6 gap-3'>
                 <h1 className='font-bold lg:text-6xl md:text-6xl text-4xl'>Refer and Earn</h1>
                 <p className='text-xl'>Save big on rent or make some extra income by referring your friends & family</p>
-                <button className='btn bg-neutral-100 p-5 border-2 border-slate-700 w-[100%] md:w-[70%] lg:w-[30%]'>Know More</button>
+                <button className='btn bg-neutral-100 p-3 border-2 border-slate-700 w-[100%] md:w-[70%] lg:w-[30%]'>Know More</button>
             </div>
             <div>
                 <img src={referalImage} alt="" className='w-full' />
