@@ -3,6 +3,8 @@ import React from 'react'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
 import HeroSection from '../HeroSection/HeroSection'
+import Property from '../Property/Property'
+import ReferEarn from '../ReferalSection/ReferEarn'
 import Service from '../Services/Service'
 
 const Home = () => {
@@ -11,6 +13,8 @@ const Home = () => {
       <HeroSection />
       <Service />
       <About />
+      <Property />
+      <ReferEarn />
       <Contact />
     </div>
   )
