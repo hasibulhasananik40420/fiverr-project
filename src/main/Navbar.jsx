@@ -2,8 +2,8 @@ import { useDisclosure } from '@chakra-ui/react'
 import { motion } from "framer-motion"
 import { useState } from 'react'
 import { BsFillCartCheckFill } from 'react-icons/bs'
-import { IoMdClose } from 'react-icons/io'
 import { CiSearch } from 'react-icons/ci'
+import { IoMdClose } from 'react-icons/io'
 import { Link } from 'react-router-dom'
 import Cart from '../component/Services/Cart/Cart'
 const Navbar = () => {
@@ -16,11 +16,11 @@ const Navbar = () => {
           <img src="https://sandbox.elemisthemes.com/assets/img/logo.png" alt="" />
         </div>
 
-         <div className='relative lg:block hidden'>
-          <input type="text" className='border w-[300px] h-[30px] rounded-3xl outline-none pl-4 text-[#343F52] font-normal text-[12px]' placeholder='Search'/>
-         
-          <CiSearch className=' absolute top-[5px] right-3 text-xl cursor-pointer'/>
-         </div>
+        <div className='relative lg:block hidden'>
+          <input type="text" className='border w-[300px] h-[30px] rounded-3xl outline-none pl-4 text-[#343F52] font-normal text-[12px]' placeholder='Search' />
+
+          <CiSearch className=' absolute top-[5px] right-3 text-xl cursor-pointer' />
+        </div>
 
         <div className=' '>
           <div className='hidden lg:flex lg:gap-8 lg:items-center'>
@@ -40,6 +40,12 @@ const Navbar = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.3 }}>
               <Link to='/' className='text-base text-[#0B2B3C] hover:text-[#3657cd]'>About us</Link>
+            </motion.span>
+
+            <motion.span initial={{ y: -20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.3 }}>
+              <Link to='/' className='text-base text-[#0B2B3C] hover:text-[#3657cd]'>List Your Property</Link>
             </motion.span>
 
             <motion.span initial={{ y: -20, opacity: 0 }}
@@ -91,11 +97,11 @@ const Navbar = () => {
 
                   <div className='flex flex-col justify-center gap-5 items-center mt-14'>
 
-                  <div className='relative'>
-          <input type="text" className='border w-[280px] h-[30px] rounded-3xl outline-none pl-4 text-[#343F52] font-normal text-[12px]' placeholder='Search'/>
-         
-          <CiSearch className=' absolute top-[5px] right-3 text-xl cursor-pointer'/>
-         </div>
+                    <div className='relative'>
+                      <input type="text" className='border w-[280px] h-[30px] rounded-3xl outline-none pl-4 text-[#343F52] font-normal text-[12px]' placeholder='Search' />
+
+                      <CiSearch className=' absolute top-[5px] right-3 text-xl cursor-pointer' />
+                    </div>
 
                     <motion.span onClick={() => setShow(false)} initial={{ y: -20, opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
@@ -126,11 +132,11 @@ const Navbar = () => {
                     </Link>
 
                     <span className='relative'>
-              <BsFillCartCheckFill  onClick={() => { onOpen(), setShow(false) }} className='text-white text-2xl cursor-pointer' />
-              <div className='w-4 h-4 rounded-full bg-blue-600 flex justify-center items-center absolute -top-[5px] left-3 '>
-                <p className='text-white text-[10px]'>2</p>
-              </div>
-            </span>
+                      <BsFillCartCheckFill onClick={() => { onOpen(), setShow(false) }} className='text-white text-2xl cursor-pointer' />
+                      <div className='w-4 h-4 rounded-full bg-blue-600 flex justify-center items-center absolute -top-[5px] left-3 '>
+                        <p className='text-white text-[10px]'>2</p>
+                      </div>
+                    </span>
                   </div>
 
                 </div>
